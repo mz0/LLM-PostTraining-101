@@ -1,0 +1,39 @@
+Generating CoT responses for 1 problem...
+
+Testing CoT template:
+Problem: Maddox and Theo both bought 3 Polaroid Cameras, each sold at $20 per camera from Amazon, and decided to sell them on eBay. Maddox sold his cameras at $28 each, while Theo sold his cameras at $23 each. How much more profit did Maddox get from the sale of his cameras than Theo?
+Ground Truth: 15.0
+
+CoT Solution:
+To find out how much more profit Maddox got from the sale of his cameras than Theo, we need to calculate the profit made by each of them and then find the difference.
+
+1. Calculate the cost price (CP) of the cameras for both Maddox and Theo:
+   - Each camera costs $20, and they bought 3 cameras.
+   - CP = 3 * $20 = $60
+
+2. Calculate the profit made by Maddox:
+   - Maddox sold each camera for $28.
+   - Profit = Selling Price (SP) - CP
+   - SP = $28
+   - Profit = $28 - $60 = -$32 (Note: This is a loss, as the selling price is less than the cost price. However, we will proceed with the calculation to find the difference in profit.)
+   - However, since we are calculating the difference in profit, we will consider the absolute value of the profit.
+   - |Profit| = $32
+
+3. Calculate the profit made by Theo:
+   - Theo sold each camera for $23.
+   - Profit = SP - CP
+   - SP = $23
+   - Profit = $23 - $60 = -$37 (Note: This is also a loss, as the selling price is less than the cost price. Again, we will consider the absolute value of the profit.)
+   - |Profit| = $37
+
+4. Calculate the difference in profit between Maddox and Theo:
+   - Difference in profit = |Profit of Maddox| - |Profit of Theo|
+   - Difference in profit = $32 - $37
+   - Difference in profit = -$5
+
+However, since we are calculating the difference in profit, we should consider the absolute value of the difference, but in this case, the negative sign indicates that Maddox actually made a smaller loss than Theo. To find the difference in the absolute sense, we should consider the positive value of the difference, which is the absolute value of the difference in the absolute values of their profits.
+
+   - Difference in absolute profit = |$32 - $37| = $5
+
+======================================================
+
